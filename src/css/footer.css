@@ -1,0 +1,88 @@
+/* Đảm bảo footer có chiều rộng toàn bộ */
+footer {
+  width: 100%;
+}
+
+/* Thiết lập các cột cho các mục trong footer */
+.main-footer .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.foo-item {
+  flex: 1;
+  padding: 15px;
+}
+
+/* Đảm bảo các tiêu đề và nội dung của các cột có kiểu dáng nhất quán */
+.foo-title {
+  font-weight: bold;
+}
+
+.foo-content {
+  margin-top: 10px;
+}
+
+/* Điều chỉnh các liên kết */
+.list-menu a {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Đảm bảo các icon xã hội nằm gọn gàng */
+.foo-social {
+  margin-top: 10px;
+}
+
+.foo-social ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.foo-social li {
+  margin-right: 10px;
+}
+
+/* Căn chỉnh nội dung giữa các cột */
+.mid-footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Căn chỉnh các cột thông tin liên hệ */
+.store_info, .store_contact {
+  margin-bottom: 10px;
+}
+
+/* Căn chỉnh tiêu đề các mục */
+.module-title h4 {
+  font-weight: bold;
+}
+
+/* Điều chỉnh các mục bản quyền */
+.copyright {
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Hiển thị nút quay về đầu trang */
+.back-to-top {
+  position: fixed;
+  bottom: 3px;
+  right: 3px;
+  background-color: #fff; /* Nền trắng cho nút */
+  border: 2px solid red; /* Viền đỏ */
+  border-radius: 50%; /* Hình tròn */
+  padding: 1px; /* Khoảng cách bên trong nút */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Đổ bóng nhẹ để nổi bật */
+  transition: background-color 0.3s, border-color 0.3s; /* Hiệu ứng chuyển màu */
+}
+
+
+
+.copyright {
+  
+  padding: 10px 0; /* Khoảng cách bên trong */
+  text-align: left; /* Căn chỉnh văn bản sang bên trái */
+}
